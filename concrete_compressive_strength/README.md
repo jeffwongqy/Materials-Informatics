@@ -30,5 +30,10 @@ Utilizing Kaggle (https://www.kaggle.com/datasets/hamzakhurshed/concrete-strengt
 
 ![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/8d2640a7-4962-49b7-8ba9-53752aef2336)
 
+(B) Visualizing the Relationship Between Ingredients and Concrete Strength: To discern potential correlations or patterns between different input features and concrete compressive strength, aiding in understanding the relationship and identifying influential factors.
+
+![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/54b39653-5cdb-4550-a445-4b9867854163)
+
+
 
 
