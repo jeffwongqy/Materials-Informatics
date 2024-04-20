@@ -17,3 +17,13 @@ The primary objective of this project is to develop a deep neural network model 
 3. Model Development: Design and train a deep neural network architecture suitable for regression tasks. Experiment with different network architectures, activation functions, optimizers, and hyperparameters to find the configuration that yields the best performance in predicting concrete compressive strength.
 
 4. Model Evaluation: Evaluate the performance of the trained neural network model using appropriate metrics such as mean absolute error, mean squared error, and coefficient of determination (R-squared). Conduct rigorous testing and validation to assess the model's accuracy, robustness, and generalization capabilities.
+
+## Data Overview
+Utilizing Kaggle (https://www.kaggle.com/datasets/hamzakhurshed/concrete-strength-dataset) for comprehensive concrete dataset for predictive modeling.
+
+<img width="400" alt="Screenshot 2024-04-20 at 7 27 38 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/9f408f8d-3ad0-40ba-a158-d42c35b3205b">
+
+<img width="400" alt="Screenshot 2024-04-20 at 7 28 06 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/165e933f-f3a9-4e58-b08f-5856e54ccb0d">
+
+
+
