@@ -34,6 +34,45 @@ Utilizing Kaggle (https://www.kaggle.com/datasets/hamzakhurshed/concrete-strengt
 
 ![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/54b39653-5cdb-4550-a445-4b9867854163)
 
+(C) Visualizing the Kendall Correlation Between Numerical Variables: Provides insight into the strength and direction of their ordinal relationships, aiding in understanding the degree of association while accounting for potential nonlinearities.
+
+![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/ac5c0b93-9c82-4bcb-abf9-4c919271b18e)
+
+(D) Feature Selection using the Kendall Correlation Test: To identify and retain the most relevant and least correlated features, thus improving model performance and interpretability while reducing redundancy in the dataset.
+
+Feature Name: cement
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that cement is statistically significant to csMPa
+
+Feature Name: slag
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that slag is statistically significant to csMPa
+
+Feature Name: flyash
+p-value: 0.0169
+p-value is less than 0.05 signficance level. There is an evidence to conclude that flyash is statistically significant to csMPa
+
+Feature Name: water
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that water is statistically significant to csMPa
+
+Feature Name: superplasticizer
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that superplasticizer is statistically significant to csMPa
+
+Feature Name: coarseaggregate
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that coarseaggregate is statistically significant to csMPa
+
+Feature Name: fineaggregate
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that fineaggregate is statistically significant to csMPa
+
+Feature Name: age
+p-value: 0.0000
+p-value is less than 0.05 signficance level. There is an evidence to conclude that age is statistically significant to csMPa
+
+
 
 
 
