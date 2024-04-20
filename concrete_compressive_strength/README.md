@@ -92,6 +92,18 @@ Normalizing input features using the standard scaler is to scale and center the 
 
 <img width="600" alt="Screenshot 2024-04-20 at 7 40 23 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/a503e857-b334-44fa-8b71-6a6894ae1b0c">
 
+## Deep Neural Network (DNN)
+
+The architecture of the deep neural network (DNN) defined by the provided code consists of two dense layers. The first dense layer has 128 neurons and uses the Gaussian Error Linear Unit (GELU) activation function, with L2 regularization applied to the kernel weights. This layer has an input dimension of 8, corresponding to the number of input features. A dropout layer with a dropout rate of 0.1 is inserted after the first dense layer to mitigate overfitting by randomly setting a fraction of input units to zero during training. The second dense layer consists of a single neuron with ReLU activation, which outputs the final prediction. Overall, this DNN architecture employs a feedforward structure with regularization and dropout mechanisms to facilitate learning and improve generalization performance.
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 41 33 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/9fe2cca8-c3d0-4156-b643-16226c75e3cc">
+
+Holdout Validation:
+<img width="245" alt="Screenshot 2024-04-20 at 7 42 24 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/7aebd85e-74cb-4df9-adb1-f3d3a5cca943">
+
+
+
+
 
 
 
