@@ -139,7 +139,7 @@ Most of the training and testing data align along the diagonal line, it suggests
 ## Conclusion
 Based on the provided results, both the DNN and 1D-CNN models demonstrate strong predictive performance for concrete compressive strength estimation. However, the 1D-CNN model appears to have a slight edge in terms of hold-out validation performance, exhibiting higher R2-Scores and lower MSE values compared to the DNN model. While the DNN model showcases comparable performance, the 1D-CNN model's ability to capture spatial dependencies within the data, particularly relevant in concrete strength prediction where structural features play a crucial role, suggests its potential superiority in real-life applications. Additionally, the 1D-CNN model exhibits consistent predictive performance across different subsets of the data in K-Fold cross-validation, indicating robustness and reliability. Therefore, based on these findings, the 1D-CNN model would be the preferred choice for predicting concrete compressive strength in real-life scenarios.
 
-
+NOTE: Please refer to the Jupyter Notebook for a more detailed explanation and results.
 
 
 
