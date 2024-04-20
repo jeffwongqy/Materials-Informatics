@@ -72,6 +72,14 @@ Feature Name: age
 p-value: 0.0000
 p-value is less than 0.05 signficance level. There is an evidence to conclude that age is statistically significant to csMPa
 
+## (E) Anomaly Detection using Isolation Forest: To identify and subsequently remove outliers or anomalous data points from the dataset, enhancing the quality and reliability of subsequent analysis or modeling tasks.
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 35 40 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/04239925-e691-4aef-a9eb-8d23dd5c16bd">
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 36 05 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/480ceb2b-16dc-4ee3-80b5-e6c5840ab22d">
+
+
+
 
 
 
