@@ -40,6 +40,8 @@ Utilizing Kaggle (https://www.kaggle.com/datasets/hamzakhurshed/concrete-strengt
 
 (D) Feature Selection using the Kendall Correlation Test: To identify and retain the most relevant and least correlated features, thus improving model performance and interpretability while reducing redundancy in the dataset.
 
+<img width="600" alt="Screenshot 2024-04-20 at 7 37 05 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/cfd001d2-c4c0-4a46-b76a-0d41c0a2c28d">
+
 Feature Name: cement
 p-value: 0.0000
 p-value is less than 0.05 signficance level. There is an evidence to conclude that cement is statistically significant to csMPa
