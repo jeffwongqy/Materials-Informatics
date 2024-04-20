@@ -1,6 +1,7 @@
 # Welcome to AI Materials Discovery!!!
 
-![_be154898-f5b5-4915-96c8-bf84d7c064d0](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/7afd0d8f-ddc1-4d44-83af-f2040c3894cb)
+<img src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/7afd0d8f-ddc1-4d44-83af-f2040c3894cb" width="600" alt="Image">
+
 
 
 Welcome to our platform dedicated solely to AI in materials informatics, where we specialize in handling tabular datasets. 
