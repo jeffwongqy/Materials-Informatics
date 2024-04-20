@@ -26,9 +26,9 @@ Utilizing Kaggle (https://www.kaggle.com/datasets/hamzakhurshed/concrete-strengt
 <img width="400" alt="Screenshot 2024-04-20 at 7 28 06 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/165e933f-f3a9-4e58-b08f-5856e54ccb0d">
 
 ## Data Visualization and Data Preprocessing
-(A) Check for Missing Values
-Checking missing values is to ensure data completeness and integrity, facilitating accurate analysis and decision-making processes.
+(A) Check for Missing Values: To ensure data completeness and integrity, facilitating accurate analysis and decision-making processes.
 
+![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/8d2640a7-4962-49b7-8ba9-53752aef2336)
 
 
 
