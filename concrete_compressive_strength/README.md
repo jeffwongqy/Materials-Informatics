@@ -74,11 +74,25 @@ Feature Name: age
 p-value: 0.0000
 p-value is less than 0.05 signficance level. There is an evidence to conclude that age is statistically significant to csMPa
 
-## (E) Anomaly Detection using Isolation Forest: To identify and subsequently remove outliers or anomalous data points from the dataset, enhancing the quality and reliability of subsequent analysis or modeling tasks.
+(E) Anomaly Detection using Isolation Forest: To identify and subsequently remove outliers or anomalous data points from the dataset, enhancing the quality and reliability of subsequent analysis or modeling tasks.
 
 <img width="600" alt="Screenshot 2024-04-20 at 7 35 40 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/04239925-e691-4aef-a9eb-8d23dd5c16bd">
 
 <img width="600" alt="Screenshot 2024-04-20 at 7 36 05 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/480ceb2b-16dc-4ee3-80b5-e6c5840ab22d">
+
+## Data Splitting
+Splitting the data into 80% for training and 20% for testing is to effectively train a machine learning model on a larger portion of the dataset while reserving a separate portion to evaluate its performance and generalization ability.
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 39 12 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/90fbc969-3bd6-4248-b86c-c052804396a0">
+
+## Data Normalizing - StandardScaler
+Normalizing input features using the standard scaler is to scale and center the data, ensuring that each feature contributes equally to the model training process, thereby improving the convergence and performance of machine learning algorithms.
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 39 53 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/7556068e-7904-4de5-a466-cd517dac8024">
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 40 23 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/a503e857-b334-44fa-8b71-6a6894ae1b0c">
+
+
 
 
 
