@@ -1,4 +1,6 @@
 # Welcome to AI Materials Discovery!!!
+![Uploading _be154898-f5b5-4915-96c8-bf84d7c064d0.jpeg…]()
+
 
 Welcome to our platform dedicated solely to AI in materials informatics, where we specialize in handling tabular datasets. 
 
