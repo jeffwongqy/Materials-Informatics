@@ -99,7 +99,50 @@ The architecture of the deep neural network (DNN) defined by the provided code c
 <img width="600" alt="Screenshot 2024-04-20 at 7 41 33 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/9fe2cca8-c3d0-4156-b643-16226c75e3cc">
 
 Holdout Validation:
+
 <img width="245" alt="Screenshot 2024-04-20 at 7 42 24 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/7aebd85e-74cb-4df9-adb1-f3d3a5cca943">
+
+K-Fold Cross-Validation:
+
+<img width="245" alt="Screenshot 2024-04-20 at 7 43 09 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/d4c2d31c-b75f-4c25-bfc9-4eab566572ab">
+
+The results from hold-out validation, with a train R2-Score of 0.917512 and test R2-Score of 0.904730, demonstrate strong performance in predicting the target variable, albeit slightly lower on the test set, along with relatively low mean squared error (MSE) values of 20.507282 and 24.807976 for train and test sets respectively. In contrast, K-Fold cross-validation yielded slightly lower R2-Scores for both train (0.907086) and test (0.865536) sets, indicating a slight decrease in model generalization compared to hold-out validation. Additionally, the MSE values for K-Fold cross-validation were higher than those from hold-out validation, with train and test MSE of 23.080122 and 31.740225 respectively, suggesting a slightly poorer fit to the data when using this cross-validation technique.
+
+Comparison Plot:
+
+![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/58ab0fc2-61f3-41e6-925b-1c4e8262b920)
+
+Most of the training and testing data align along the diagonal line, it suggests that the 1D-CNN predictions closely match the actual values. This alignment signifies that the model is effectively capturing the underlying patterns and trends in the data, leading to accurate predictions. The diagonal line represents perfect prediction, where the predicted values are equal to the actual values. Therefore, the proximity of the data points to this line indicates the model's ability to generalize well and make reliable predictions across the dataset, implying a strong performance of the 1D-CNN regressor in capturing the relationships within the input data.
+
+## 1-Dimensional Convolutional Neural Network (1D-CNN)
+
+The architecture of the deep neural network defined by the provided code involves a one-dimensional convolutional neural network (CNN) followed by dense layers. The input data is reshaped into a three-dimensional format to fit the convolutional layer's input requirements. The CNN consists of a convolutional layer with 16 filters, each with a kernel size of 5 and GELU activation, with padding applied to maintain the input size. Subsequently, the output is flattened to be compatible with the following dense layers. The dense layers consist of 128 neurons with GELU activation and L2 regularization, followed by a dropout layer to prevent overfitting. Finally, a single neuron with ReLU activation serves as the output layer for prediction. This architecture leverages convolutional operations for feature extraction and subsequent dense layers for further processing and prediction.
+
+<img width="600" alt="Screenshot 2024-04-20 at 7 45 41 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/195ac3ea-29ce-4835-a7ae-52fb297d7da3">
+
+Holdout Validation:
+
+<img width="245" alt="Screenshot 2024-04-20 at 7 46 30 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/088126ba-7de4-4304-80fc-c0d31263a195">
+
+K-Fold Cross-Validation:
+
+<img width="245" alt="Screenshot 2024-04-20 at 7 47 04 PM" src="https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/5fb668e2-8773-4365-a675-fe604af96b8d">
+
+The results from hold-out validation for the 1D-CNN model indicate strong performance, with a train R2-Score of 0.925348 and test R2-Score of 0.909768, showcasing its ability to accurately predict the target variable, with relatively low mean squared error (MSE) values of 18.559225 and 23.496241 for train and test sets respectively. Conversely, K-Fold cross-validation exhibited slightly lower R2-Scores for both train (0.890999) and test (0.884620) sets, implying a slight decrease in the model's generalization compared to hold-out validation. Interestingly, despite this decrease in R2-Scores, the MSE values for both train and test sets in K-Fold cross-validation were quite similar (27.079923 for train and 27.072859 for test), indicating consistent predictive performance across folds and suggesting robustness in model fit across different subsets of the data.
+
+Comparison Plot:
+
+![output](https://github.com/jeffwongqy/Materials-Informatics/assets/100281127/640ce768-bda0-47a5-abe6-e6e20e6e71e9)
+
+Most of the training and testing data align along the diagonal line, it suggests that the 1D-CNN predictions closely match the actual values. This alignment signifies that the model is effectively capturing the underlying patterns and trends in the data, leading to accurate predictions. The diagonal line represents perfect prediction, where the predicted values are equal to the actual values. Therefore, the proximity of the data points to this line indicates the model's ability to generalize well and make reliable predictions across the dataset, implying a strong performance of the 1D-CNN regressor in capturing the relationships within the input data.
+
+## Conclusion
+Based on the provided results, both the DNN and 1D-CNN models demonstrate strong predictive performance for concrete compressive strength estimation. However, the 1D-CNN model appears to have a slight edge in terms of hold-out validation performance, exhibiting higher R2-Scores and lower MSE values compared to the DNN model. While the DNN model showcases comparable performance, the 1D-CNN model's ability to capture spatial dependencies within the data, particularly relevant in concrete strength prediction where structural features play a crucial role, suggests its potential superiority in real-life applications. Additionally, the 1D-CNN model exhibits consistent predictive performance across different subsets of the data in K-Fold cross-validation, indicating robustness and reliability. Therefore, based on these findings, the 1D-CNN model would be the preferred choice for predicting concrete compressive strength in real-life scenarios.
+
+
+
+
+
 
 
 
